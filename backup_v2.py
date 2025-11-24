@@ -5,6 +5,14 @@ import time
 import argparse
 from pathlib import Path
 
+# ----------------------------------------------------------------
+# Awesome Backup Tool
+# Written by: Arash Samadi
+# Website: https://vdelta.ir/samadi
+# Email: arash.samadi.sbu@gmail.com
+# Year: 2025
+# ----------------------------------------------------------------
+
 # how to use the script:
 # py .\backup_v2.py -s "C:/Users/Arash/Desktop/Academic" -d "G:/theAcademicBackup"
 
@@ -92,3 +100,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     perform_backup(args.source, args.destination)
+
