@@ -25,17 +25,18 @@ It tracks file changes, copies only updated files, and moves deleted files into 
 ## 📝 Usage
 
 Run the backup tool using the command-line interface:
-
+```
 py backup_v2.py --source "C:/path/to/source" --destination "D:/path/to/backup"
-
+```
 
 Or using short options:
-
+```
 py backup_v2.py -s "C:/path/to/source" -d "D:/path/to/backup"
-
+```
 Example (the command I personally use):
+```
 py .\backup_v2.py -s "C:/Users/Arash/Desktop/Academic" -d "G:/theAcademicBackup"
-
+```
 
 This will:
 
